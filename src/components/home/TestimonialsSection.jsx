@@ -1,20 +1,25 @@
 // Pastikan konfigurasi warna Anda (primary, accent, base) aktif
+
+import testi1 from "../../assets/images/testi-1.jpeg";
+import testi2 from "../../assets/images/testi-2.jpeg";
+import testi3 from "../../assets/images/testi-3.jfif";
+
 export default function TestimonialsSection() {
   const testimonials = [
     {
       name: "Clara Setiawan",
       text: "Yeji is absolutely amazing! My bridal makeup stayed flawless all day and looked so natural in photos. I felt confident and beautiful!",
-      image: "/images/testi-1.jpeg",
+      image: { testi1 },
     },
     {
       name: "Aurelia Tan",
       text: "Super professional and friendly. She knew exactly what style fit my face shape. Loved my graduation makeup so much!",
-      image: "/images/testi-2.jpeg",
+      image: { testi2 },
     },
     {
       name: "Nadia Rahma",
       text: "From booking to the actual day, everything was smooth. The makeup was elegant and long-lasting. Highly recommended!",
-      image: "/images/testi-3.jfif",
+      image: { testi3 },
     },
   ];
 

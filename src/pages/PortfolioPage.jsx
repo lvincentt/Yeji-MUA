@@ -1,59 +1,66 @@
-// Import React state jika Anda ingin mengimplementasikan filtering yang berfungsi
-// import React, { useState } from 'react';
+import Bridal from "../assets/images/bridal.jpeg";
+import Graduation from "../assets/images/bridesmaid.jpeg";
+import Editorial from "../assets/images/classic.jpeg";
+import Modern from "../assets/images/graduation.jpeg";
+import StudioGlow from "../assets/images/photoshoot.jpeg";
+import Engagement from "../assets/images/portfolio_editorial.jpeg";
+import Natural from "../assets/images/portfolio-natural.jpeg";
+import Brismaid from "../assets/images/portfolio-softpink.jpeg";
+import Fashion from "../assets/images/portfolio-graduation.jpeg";
 
 export default function PortfolioPage() {
   const portfolios = [
     {
       id: 1,
-      image: "/images/bridal.jpeg",
+      image: Bridal,
       category: "Bridal",
       title: "Classic Bridal Look",
     },
     {
       id: 2,
-      image: "/images/bridesmaid.jpeg",
+      image: Graduation,
       category: "Graduation",
       title: "Soft Glam Graduation",
     },
     {
       id: 3,
-      image: "/images/classic.jpeg",
+      image: Editorial,
       category: "Photoshoot",
       title: "Editorial Makeup",
     },
     {
       id: 4,
-      image: "/images/graduation.jpeg",
+      image: Modern,
       category: "Bridal",
       title: "Modern Bride",
     },
     {
       id: 5,
-      image: "/images/photoshoot.jpeg",
+      image: StudioGlow,
       category: "Photoshoot",
       title: "Studio Glow",
     },
     {
       id: 6,
-      image: "/images/portfolio_editorial.jpeg",
+      image: Natural,
       category: "Graduation",
       title: "Fresh Natural Look",
     },
     {
       id: 7,
-      image: "/images/portfolio-natural.jpeg",
+      image: Engagement,
       category: "Engagement",
       title: "Romantic Engagement Style",
     },
     {
       id: 8,
-      image: "/images/portfolio-softpink.jpeg",
+      image: Brismaid,
       category: "Bridesmaid",
       title: "Elegant Bridesmaid",
     },
     {
       id: 9,
-      image: "/images/portfolio-graduation.jpeg",
+      image: Fashion,
       category: "Photoshoot",
       title: "Fashion Editorial",
     },

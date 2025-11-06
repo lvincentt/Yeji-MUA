@@ -1,3 +1,10 @@
+import Bridal from "../assets/images/bridal.jpeg";
+import Graduation from "../assets/images/portfolio-graduation.jpeg";
+import Photoshoot from "../assets/images/photoshoot.jpeg";
+import Bridesmaid from "../assets/images/bridesmaid.jpeg";
+import Engagement from "../assets/images/portfolio-natural.jpeg";
+import TouchUp from "../assets/images/portfolio-softpink.jpeg";
+
 export default function ServicesPage() {
   const services = [
     {
@@ -5,35 +12,35 @@ export default function ServicesPage() {
       desc: "Elegant and timeless bridal look using premium, long-lasting products. Includes consultation, trial session, and touch-up service during the event.",
       price: "IDR 1.200.000",
       duration: "3–4 hours",
-      image: "/images/bridal.jpeg",
+      image: Bridal,
     },
     {
       title: "Graduation Makeup",
       desc: "Soft glam style to celebrate your big day with confidence. Perfect for photography and natural lighting setups.",
       price: "IDR 650.000",
       duration: "1.5–2 hours",
-      image: "/images/portfolio-graduation.jpeg",
+      image: Graduation,
     },
     {
       title: "Photoshoot Makeup",
       desc: "Makeup for editorial, fashion, or personal photoshoots. Designed to suit your outfit, theme, and lighting.",
       price: "IDR 850.000",
       duration: "2 hours",
-      image: "/images/photoshoot.jpeg",
+      image: Photoshoot,
     },
     {
       title: "Bridesmaid Makeup",
       desc: "Elegant bridesmaid look that complements the main bridal style while keeping a natural glow.",
       price: "IDR 500.000",
       duration: "1.5 hours",
-      image: "/images/bridesmaid.jpeg",
+      image: Bridesmaid,
     },
     {
       title: "Engagement Makeup",
       desc: "Romantic and picture-perfect engagement makeup for your special moment. Includes hairstyling if needed.",
       price: "IDR 900.000",
       duration: "2.5 hours",
-      image: "/images/portfolio-natural.jpeg",
+      image: Engagement,
     },
     // Tambahkan layanan tambahan yang lebih kecil untuk mengisi grid
     {
@@ -41,7 +48,7 @@ export default function ServicesPage() {
       desc: "Hourly service to maintain your flawless look throughout the event or photo session.",
       price: "IDR 200.000/hr",
       duration: "Min 2 hours",
-      image: "/images/portfolio-natural.jpeg",
+      image: TouchUp,
     },
   ];
 

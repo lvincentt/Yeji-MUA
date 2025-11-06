@@ -1,22 +1,26 @@
+import bridal from "../../assets/images/bridal.jpeg";
+import graduation from "../../assets/images/graduation.jpeg";
+import photoshoot from "../../assets/images/photoshoot.jpeg";
+
 export default function ServicesSection() {
   const services = [
     {
       title: "Bridal Makeup",
       desc: "Elegant, long-lasting bridal makeup designed to make you feel radiant on your special day.",
       price: "IDR 1.200.000",
-      image: "/images/bridal.jpeg",
+      image: bridal,
     },
     {
       title: "Graduation Makeup",
       desc: "Soft glam look perfect for your graduation day — fresh, confident, and photo-ready.",
       price: "IDR 650.000",
-      image: "/images/graduation.jpeg",
+      image: graduation,
     },
     {
       title: "Photoshoot Makeup",
       desc: "Makeup for editorial or casual photoshoots with flawless base and attention to detail.",
       price: "IDR 850.000",
-      image: "/images/photoshoot.jpeg",
+      image: photoshoot,
     },
   ];
 
@@ -33,7 +37,7 @@ export default function ServicesSection() {
         <h2 className="font-heading text-5xl md:text-6xl font-bold text-gray-900 mb-6">
           Tailored Artistry
         </h2>
-        <p classNameation="font-body text-gray-600 max-w-3xl mx-auto mb-16 text-lg leading-relaxed">
+        <p className="font-body text-gray-600 max-w-3xl mx-auto mb-16 text-lg leading-relaxed">
           Choose the perfect look for your moment. We provide customized,
           high-quality makeup services for every special occasion, focusing on
           your individual style.

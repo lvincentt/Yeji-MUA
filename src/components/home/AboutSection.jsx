@@ -1,3 +1,5 @@
+import aboutImg from "../../assets/images/About.jpeg";
+
 export default function AboutSection() {
   return (
     // Padding vertikal lebih besar untuk kesan "spacious" (lapang)
@@ -8,7 +10,7 @@ export default function AboutSection() {
           {/* 1. Kontainer Foto: Bentuk modern dan shadow yang elegan */}
           <div className="aspect-[4/5] overflow-hidden rounded-xl shadow-2xl shadow-primary/30 transform transition duration-700 hover:scale-[1.01] ease-in-out">
             <img
-              src="/images/About.jpeg"
+              src={aboutImg}
               alt="Yeji MUA - Professional Makeup Artist"
               // 2. Efek Gambar: Zoom saat hover untuk memberi kesan dinamis
               className="object-cover w-full h-full transition-transform duration-700 hover:scale-110"

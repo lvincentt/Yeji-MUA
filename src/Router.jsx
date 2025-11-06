@@ -6,18 +6,23 @@ import ServicesPage from "./pages/ServicesPage";
 import PortfolioPage from "./pages/PortfolioPage";
 import ContactPage from "./pages/ContactPage";
 
-const router = createBrowserRouter([
+const router = createBrowserRouter(
+  [
+    {
+      path: "/",
+      element: <MainLayout />,
+      children: [
+        { index: true, element: <Home /> },
+        { path: "about", element: <AboutPage /> },
+        { path: "services", element: <ServicesPage /> },
+        { path: "portfolio", element: <PortfolioPage /> },
+        { path: "contact", element: <ContactPage /> },
+      ],
+    },
+  ],
   {
-    path: "/",
-    element: <MainLayout />,
-    children: [
-      { index: true, element: <Home /> },
-      { path: "about", element: <AboutPage /> },
-      { path: "services", element: <ServicesPage /> },
-      { path: "portfolio", element: <PortfolioPage /> },
-      { path: "contact", element: <ContactPage /> },
-    ],
-  },
-]);
+    basename: "/Yeji-MUA",
+  }
+);
 
 export default router;
