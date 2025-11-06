@@ -7,24 +7,24 @@ import portfolioClassic from "../../assets/images/classic.jpeg";
 
 export default function PortfolioSection() {
   const portfolios = [
-    { id: 1, image: { portfolioBridal }, title: "Bridal Look" },
+    { id: 1, image: portfolioBridal, title: "Bridal Look" },
     {
       id: 2,
-      image: { portfolioGraduation },
+      image: portfolioGraduation,
       title: "Graduation Glam",
     },
     {
       id: 3,
-      image: { portfolioEditorial },
+      image: portfolioEditorial,
       title: "Editorial Style",
     },
-    { id: 4, image: { portfolioNatural }, title: "Natural Beauty" },
+    { id: 4, image: portfolioNatural, title: "Natural Beauty" },
     {
       id: 5,
-      image: { portfolioSoftPink },
+      image: portfolioSoftPink,
       title: "Soft Pink Tone",
     },
-    { id: 6, image: { portfolioClassic }, title: "Classic Glamour" },
+    { id: 6, image: portfolioClassic, title: "Classic Glamour" },
   ];
 
   return (

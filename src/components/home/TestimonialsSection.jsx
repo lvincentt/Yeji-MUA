@@ -9,17 +9,17 @@ export default function TestimonialsSection() {
     {
       name: "Clara Setiawan",
       text: "Yeji is absolutely amazing! My bridal makeup stayed flawless all day and looked so natural in photos. I felt confident and beautiful!",
-      image: { testi1 },
+      image: testi1,
     },
     {
       name: "Aurelia Tan",
       text: "Super professional and friendly. She knew exactly what style fit my face shape. Loved my graduation makeup so much!",
-      image: { testi2 },
+      image: testi2,
     },
     {
       name: "Nadia Rahma",
       text: "From booking to the actual day, everything was smooth. The makeup was elegant and long-lasting. Highly recommended!",
-      image: { testi3 },
+      image: testi3,
     },
   ];
 

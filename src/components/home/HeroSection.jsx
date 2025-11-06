@@ -7,8 +7,6 @@ export default function HeroSection() {
       <div
         className="absolute inset-0"
         style={{
-          backgroundImage: "url('/images/hero-makeup.jpg')",
-          // 2. Efek Gambar: Zoom lembut dan blur halus untuk kesan dreamy/artistik
           backgroundSize: "cover",
           backgroundPosition: "center 20%", // Fokuskan pada bagian atas atau tengah objek
         }}
