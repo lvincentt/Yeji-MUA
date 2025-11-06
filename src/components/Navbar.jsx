@@ -4,7 +4,6 @@ export default function Navbar() {
   return (
     <header className="sticky top-0 z-50 bg-white/90 backdrop-blur-lg border-b border-neutral-100 shadow-soft">
       <nav className="max-w-7xl mx-auto flex items-center justify-between py-4 px-6 lg:px-8">
-        {/* Logo - Lebih elegan dan sophisticated */}
         <NavLink to="/" className="group flex items-center space-x-2">
           <div className="w-3 h-3 bg-primary rounded-full transform group-hover:scale-110 transition-transform duration-300"></div>
           <h1 className="text-2xl font-heading font-semibold text-neutral-900 tracking-tight">
@@ -13,7 +12,6 @@ export default function Navbar() {
           </h1>
         </NavLink>
 
-        {/* Navigation Menu - Clean dan modern */}
         <ul className="hidden md:flex items-center space-x-8 font-body">
           {[
             { name: "Home", to: "/" },
@@ -40,7 +38,6 @@ export default function Navbar() {
           ))}
         </ul>
 
-        {/* CTA Button - Modern dan eye-catching */}
         <div className="flex items-center space-x-4">
           <a
             href="#contact"
@@ -50,7 +47,6 @@ export default function Navbar() {
             <div className="absolute inset-0 bg-primary transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></div>
           </a>
 
-          {/* Mobile menu button - Minimalist */}
           <button className="md:hidden p-2 text-neutral-600 hover:text-neutral-900 transition-colors duration-200">
             <div className="w-5 h-5 flex flex-col justify-between">
               <span className="w-full h-0.5 bg-current rounded-full"></span>

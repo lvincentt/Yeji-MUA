@@ -42,7 +42,7 @@ export default function ServicesPage() {
       duration: "2.5 hours",
       image: Engagement,
     },
-    // Tambahkan layanan tambahan yang lebih kecil untuk mengisi grid
+
     {
       title: "Touch-up Service",
       desc: "Hourly service to maintain your flawless look throughout the event or photo session.",
@@ -53,10 +53,8 @@ export default function ServicesPage() {
   ];
 
   return (
-    // Background diubah menjadi warna base/lembut
     <section className="py-24 md:py-32 bg-base">
       <div className="container mx-auto px-6 text-center">
-        {/* Subheading & Heading Konsisten */}
         <p className="font-body text-sm uppercase tracking-[0.3em] text-accent font-medium mb-3">
           Explore Our Artistry
         </p>
@@ -68,15 +66,12 @@ export default function ServicesPage() {
           Choose the **tailored service** that fits your special occasion.
         </p>
 
-        {/* Grid Kartu Layanan - Layout 3 kolom (lebih banyak layanan) */}
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-10">
           {services.map((srv, idx) => (
             <div
               key={idx}
-              // Styling Kartu: Bersih, border tipis, efek hover elegan, bg-white
               className="group rounded-2xl overflow-hidden border border-secondary/70 transition duration-300 bg-white shadow-xl shadow-gray-100 hover:shadow-primary/30 hover:shadow-2xl flex flex-col h-full"
             >
-              {/* Gambar dengan Hover Effect */}
               <div className="aspect-[5/4] overflow-hidden">
                 <img
                   src={srv.image}
@@ -85,7 +80,6 @@ export default function ServicesPage() {
                 />
               </div>
 
-              {/* Konten dengan Padding Lebih Besar */}
               <div className="p-7 flex flex-col flex-grow text-left">
                 <h3 className="font-heading text-3xl font-semibold text-gray-900 mb-2">
                   {srv.title}
@@ -95,7 +89,6 @@ export default function ServicesPage() {
                   {srv.desc}
                 </p>
 
-                {/* Detail Harga & Durasi (Minimalis & Jelas) */}
                 <div className="flex justify-between items-center pb-4 border-b border-gray-100">
                   <div className="flex items-center space-x-2">
                     <span className="text-xl font-bold font-body text-accent">
@@ -103,7 +96,6 @@ export default function ServicesPage() {
                     </span>
                   </div>
                   <div className="flex items-center text-sm font-medium text-gray-500">
-                    {/* Tambahkan ikon jam (jika ada) */}
                     <svg
                       className="w-4 h-4 mr-1 text-primary"
                       fill="none"
@@ -122,7 +114,6 @@ export default function ServicesPage() {
                   </div>
                 </div>
 
-                {/* Tombol CTA Konsisten */}
                 <a
                   href="#contact"
                   className="mt-6 inline-block px-8 py-3 bg-primary text-white font-body font-semibold rounded-full text-base transition duration-300 hover:bg-accent hover:scale-[1.01] shadow-md shadow-primary/30"
